@@ -1,0 +1,5 @@
+<form (submit) = "onSubmit()" >
+  Note: <input type="text" name="note" [(ngModel)] = "note"><br>
+  <input type="submit" value="Add note">
+</form>
+<app-showlist [note] = "notes"></app-showlist>
